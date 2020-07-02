@@ -1,0 +1,22 @@
+type Posts {
+	id: String!,
+	title: String!,
+	content: String!,
+	author: String!,
+	modifiedTime: String
+}
+
+type Query {
+	getPosts(id: String):Posts
+	getPagingPosts(page: Int):[Posts]
+}
+
+type Mutation {
+	savePosts(input: PostsSaveInput):Posts
+}
+
+input PostsSaveInput {
+	title: String!
+	content: String!
+	author: String!
+}
