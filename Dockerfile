@@ -2,7 +2,7 @@ FROM openjdk:11
 
 VOLUME /tmp
 
-EXPOSE 8080
+EXPOSE 8000
 
 ARG JAR_FILE=target/*.jar
 
