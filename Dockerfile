@@ -6,6 +6,6 @@ EXPOSE 8000
 
 ARG JAR_FILE=target/*.jar
 
-ADD ${JAR_FILE} simple-board.jar
+COPY ${JAR_FILE} simple-board.jar
 
 ENTRYPOINT ["java","-Dspring.profiles.active=real", "-jar","/simple-board.jar"]
