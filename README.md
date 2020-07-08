@@ -8,12 +8,16 @@
 * Vue
 * BootStrap
 
+<br>
+
 > Backend 
 * Spring
 * GraphQL
 * MongoDB
     * Sharding
 * EmbeddedMongoDB
+
+<br>
 
 > Infra
 * Docker
@@ -22,6 +26,8 @@
 * NCloud
 * AWS
 * NGrinder
+
+<br>
 
 > Option
 * Security
