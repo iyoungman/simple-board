@@ -137,7 +137,5 @@ src/main/resources/application-real.properties
 
 target/
 
-Dockerfile
-
 
 target\
