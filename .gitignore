@@ -42,7 +42,6 @@ build/
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -135,3 +134,10 @@ buildNumber.properties
 .mvn/*
 
 src/main/resources/application-real.properties
+
+target/
+
+Dockerfile
+
+
+target\
