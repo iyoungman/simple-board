@@ -132,6 +132,3 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/*
-
-src/main/resources/application-real.properties
-
