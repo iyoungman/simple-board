@@ -135,7 +135,3 @@ buildNumber.properties
 
 src/main/resources/application-real.properties
 
-target/
-
-
-target\
